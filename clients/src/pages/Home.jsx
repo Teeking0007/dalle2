@@ -40,7 +40,7 @@ const CreatePost = () => {
     }
 
     const handleCollections = async () => {
-      await axios.post('http://localhost:8080/api/collections', {
+      await axios.post('https://dalle-fuh1.onrender.com/api/collections', {
         posts
       })
       .then(function (response) {

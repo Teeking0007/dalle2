@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(()=>{
     setLoading(true)
-     axios.get('http://localhost:8080/api/collections')
+     axios.get('https://dalle-fuh1.onrender.com/api/collections')
       .then(function (response) {
         const {data} = response
         const load = data.reverse()
