@@ -17,7 +17,7 @@ const CreatePost = () => {
 
       setLoading(true)
       
-      await axios.post('http://localhost:8080/api/dalle', {
+      await axios.post('https://dalle-fuh1.onrender.com/api/dalle', {
         prompt
       })
       .then(function (response) {
